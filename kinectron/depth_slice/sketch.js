@@ -28,7 +28,7 @@ function draw() {
 
 function initKinectron() {
   // Define and create an instance of kinectron
-  kinectron = new Kinectron("ffdbe62ed0c0.ngrok.io");
+  kinectron = new Kinectron("7aac05ca42c9.ngrok.io");
 
   // Set Kinect type to windows
   kinectron.setKinectType("windows");

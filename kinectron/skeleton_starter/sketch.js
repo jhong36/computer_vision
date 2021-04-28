@@ -7,6 +7,7 @@ function setup() {
 
   // Set background color
   background(0);
+  console.log(body);
 
   // Initialize Kinectron
   initKinectron();
@@ -19,7 +20,7 @@ function initKinectron() {
   // Define and create an instance of kinectron
   // kinectron = new Kinectron("10.17.18.9");
   // kinectron = new Kinectron("192.168.0.58");
-  kinectron = new Kinectron("ffdbe62ed0c0.ngrok.io");
+  kinectron = new Kinectron("7aac05ca42c9.ngrok.io");
 
   // Set Kinect type to windows
   kinectron.setKinectType("windows");
