@@ -60,7 +60,7 @@ const cube = new Mesh();
 
 const loader = new GLTFLoader();
 
-loader.load('../3d_models/pavilion_red.glb', function(gltf) {
+loader.load('../3d_models/pavilion01.glb', function(gltf) {
 
   console.log(gltf.scene);
 
@@ -72,16 +72,6 @@ loader.load('../3d_models/pavilion_red.glb', function(gltf) {
 })
 
 
-loader.load('../3d_models/pavilion_blue.glb', function(gltf) {
-
-  console.log(gltf.scene);
-
-  gltf.scene.scale.set(.1, .1, .1);
-  
-  scene.add(gltf.scene);
-}, undefined, function(error){
-  console.error(error);
-})
 
 scene.add(cube, light);
 
