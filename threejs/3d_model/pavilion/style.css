@@ -1,0 +1,14 @@
+
+
+body {
+
+}
+
+#scene-container {
+  position: absolute;
+  top: 100px;
+  left: 10vw;
+  width: 80vw;
+  height: 50vh;
+  background: rgb(0, 0, 150);
+}
